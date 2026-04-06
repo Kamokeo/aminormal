@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Am I Normal?
 
-## Getting Started
+A viral, production-ready web app. Anonymous questions, honest percentages, no judgment.
 
-First, run the development server:
+## Setup
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Set up Supabase
+
+1. Open your Supabase project dashboard at https://supabase.com/dashboard
+2. Go to **SQL Editor**
+3. Paste and run the full contents of `supabase/seed.sql`
+
+This creates the `questions`, `votes`, and `vote_counts` tables with RLS policies and seeds all 60 questions across 7 categories.
+
+### 3. Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploy to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npx vercel
+```
 
-## Learn More
+Set the same environment variables from `.env.local` in the Vercel dashboard.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 16 (App Router, TypeScript)
+- Supabase (Postgres + Realtime)
+- Tailwind CSS v4
+- Geist font
