@@ -4,6 +4,7 @@ import { Category } from '@/lib/categoryColors'
 import CategoryFilter from './CategoryFilter'
 import LiveCount from './LiveCount'
 import AdSlot from './AdSlot'
+import SiteFooter from './SiteFooter'
 
 type Props = {
   onStart: (category: Category) => void
@@ -55,6 +56,8 @@ export default function Landing({ onStart }: Props) {
       <p style={{ color: '#555555', fontSize: 12, maxWidth: 260 }}>
         Pick a category above to start there instead
       </p>
+
+      <SiteFooter />
     </div>
   )
 }

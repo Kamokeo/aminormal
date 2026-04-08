@@ -3,7 +3,7 @@
 import { categoryColors, categoryEmoji, categoryLabels, Category } from '@/lib/categoryColors'
 
 const CATEGORIES: Category[] = [
-  'all', 'habits', 'food', 'work', 'relationships', 'social', 'sleep', 'money', 'spicy',
+  'all', 'habits', 'food', 'work', 'relationships', 'social', 'sleep', 'money',
 ]
 
 type Props = {

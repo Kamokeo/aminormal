@@ -6,7 +6,6 @@ export const categoryColors: Record<string, string> = {
   social: '#a855f7',
   sleep: '#06b6d4',
   money: '#eab308',
-  spicy: '#ff4444',
   all: '#ffffff',
 }
 
@@ -18,7 +17,6 @@ export const categoryEmoji: Record<string, string> = {
   social: '🎉',
   sleep: '😴',
   money: '💰',
-  spicy: '🌶️',
   all: '✨',
 }
 
@@ -30,7 +28,6 @@ export const categoryLabels: Record<string, string> = {
   social: 'Social',
   sleep: 'Sleep',
   money: 'Money',
-  spicy: 'Spicy',
   all: 'All',
 }
 

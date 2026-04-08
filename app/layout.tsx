@@ -8,6 +8,7 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://aminormal.vercel.app'),
   title: 'Am I Normal? | Find out how you compare',
   description:
     'Anonymous questions. Honest percentages. Find out if your habits are normal — or totally unique.',

@@ -9,6 +9,7 @@ import QuestionCard from '@/components/QuestionCard'
 import SessionResults from '@/components/SessionResults'
 import CategoryFilter from '@/components/CategoryFilter'
 import AdSlot from '@/components/AdSlot'
+import SiteFooter from '@/components/SiteFooter'
 
 type GameState = 'landing' | 'playing' | 'empty'
 
@@ -217,6 +218,8 @@ export default function Home() {
         >
           ← Back to home
         </button>
+
+        <SiteFooter />
       </div>
     )
   }
@@ -289,6 +292,10 @@ export default function Home() {
           style={{ padding: '0 16px 24px' }}
         >
           <AdSlot size="728x90" slot="playing-bottom" />
+        </div>
+
+        <div className="hidden md:block">
+          <SiteFooter />
         </div>
       </main>
 
