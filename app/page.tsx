@@ -145,7 +145,7 @@ export default function Home() {
   if (gameState === 'empty') {
     const normalPct =
       sessionAnswered > 0 ? Math.round((sessionNormal / sessionAnswered) * 100) : 0
-    const tweetText = `I scored ${normalPct}% normal on aminormal.vercel.app 💀 what did you get?`
+    const tweetText = `I scored ${normalPct}% normal on aminormal.lol 💀 what did you get?`
     return (
       <div
         className="min-h-screen flex flex-col items-center justify-center px-4 text-center"

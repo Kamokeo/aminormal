@@ -32,8 +32,8 @@ export default function PrivacyPolicy() {
         <Section title="1. Overview">
           <p>
             Am I Normal? (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) operates the website{' '}
-            <a href="https://aminormal.vercel.app" className="underline" style={{ color: '#aaaaaa' }}>
-              aminormal.vercel.app
+            <a href="https://aminormal.lol" className="underline" style={{ color: '#aaaaaa' }}>
+              aminormal.lol
             </a>{' '}
             (the &quot;Site&quot;). This policy explains what information we collect, how we use it,
             and your rights regarding that information.

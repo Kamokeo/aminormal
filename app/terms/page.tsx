@@ -32,8 +32,8 @@ export default function TermsOfService() {
         <Section title="1. Acceptance of Terms">
           <p>
             By accessing or using <strong style={{ color: '#ffffff' }}>Am I Normal?</strong> at{' '}
-            <a href="https://aminormal.vercel.app" className="underline" style={{ color: '#aaaaaa' }}>
-              aminormal.vercel.app
+            <a href="https://aminormal.lol" className="underline" style={{ color: '#aaaaaa' }}>
+              aminormal.lol
             </a>{' '}
             (the &quot;Site&quot;), you agree to be bound by these Terms of Service
             (&quot;Terms&quot;). If you do not agree to these Terms, please do not use the Site.

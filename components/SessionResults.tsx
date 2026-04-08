@@ -16,7 +16,7 @@ export default function SessionResults({ answeredCount, normalCount, categoryCol
 
   const normalPct = answeredCount > 0 ? Math.round((normalCount / answeredCount) * 100) : 0
   const badge = getBadgeData(normalPct)
-  const url = 'https://aminormal.vercel.app'
+  const url = 'https://aminormal.lol'
   const shareText = `I got ${badge.full} on ${url}\n— apparently I'm ${normalPct}% normal 💀 what did you get?`
 
   function shareTwitter() {

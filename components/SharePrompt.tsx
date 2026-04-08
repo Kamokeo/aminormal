@@ -11,7 +11,7 @@ type Props = {
 export default function SharePrompt({ answeredCount, normalCount, onDismiss }: Props) {
   const [copied, setCopied] = useState(false)
 
-  const url = 'https://aminormal.vercel.app'
+  const url = 'https://aminormal.lol'
   const tweetText = `I just found out if I'm normal on ${url} — apparently I'm normal on ${normalCount}/${answeredCount} questions 👀`
 
   function shareTwitter() {
