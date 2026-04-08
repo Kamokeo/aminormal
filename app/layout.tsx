@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     title: 'Am I Normal?',
     description: 'Find out if your habits, opinions and behaviors are normal — or totally unique.',
   },
+  other: {
+    'google-adsense-account': 'ca-pub-3230427510374994',
+  },
 }
 
 export const viewport: Viewport = {
